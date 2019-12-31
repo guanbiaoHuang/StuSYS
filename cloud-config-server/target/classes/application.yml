@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: cloud-config-server
+  cloud:
+    config:
+      label: master #仓库分支
+      server:
+        git:
+          uri: https://github.com/guanbiaoHuang/cloudConfig #仓库地址
+          search-paths: respo #仓库下属文件目录
+          username: 820245630@qq.com #访问仓库的用户名
+          password: huang@qq.com1998 #访问仓库的密码
+  zipkin:
+    base-url: http://localhost:9411
+
+server:
+  port: 9001
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: cloud-config-server

@@ -17,6 +17,6 @@ public class StudentService {
     }
 
     public String serviceNotResponse(String id){
-        return "no response while trying to find student "+id;
+        return "ribbon: no response while trying to find student "+id;
     }
 }

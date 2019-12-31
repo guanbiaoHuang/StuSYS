@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: cloud-zipkin
+  main:
+    allow-bean-definition-overriding: true
+
+server:
+  port: 9411
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: cloud-zipkin
+
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false

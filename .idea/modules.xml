@@ -3,11 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/StuSYS.iml" filepath="$PROJECT_DIR$/.idea/StuSYS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-client/cloud-config-client.iml" filepath="$PROJECT_DIR$/cloud-config-client/cloud-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-server/cloud-config-server.iml" filepath="$PROJECT_DIR$/cloud-config-server/cloud-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-dependencies/cloud-dependencies.iml" filepath="$PROJECT_DIR$/cloud-dependencies/cloud-dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" filepath="$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-service-consumer-feign/cloud-service-consumer-feign.iml" filepath="$PROJECT_DIR$/cloud-service-consumer-feign/cloud-service-consumer-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-service-consumer-ribbon/cloud-service-consumer-ribbon.iml" filepath="$PROJECT_DIR$/cloud-service-consumer-ribbon/cloud-service-consumer-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-service-provider/cloud-service-provider.iml" filepath="$PROJECT_DIR$/cloud-service-provider/cloud-service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-zipkin/cloud-zipkin.iml" filepath="$PROJECT_DIR$/cloud-zipkin/cloud-zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" filepath="$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" />
     </modules>
   </component>
 </project>

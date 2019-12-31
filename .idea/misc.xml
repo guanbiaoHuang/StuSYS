@@ -11,6 +11,11 @@
         <option value="$PROJECT_DIR$/cloud-service-provider/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-service-consumer-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-service-consumer-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config=client/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-client/pom.xml" />
       </list>
     </option>
   </component>

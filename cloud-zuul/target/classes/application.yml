@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: cloud-zuul
+  zipkin:
+    base-url: http://localhost:9411
+
+server:
+  port: 8030
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: cloud-zuul
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/
+
+
+zuul:
+  #路由规则，匹配表达式path，转至对应的服务
+  routes:
+    api-a:
+      path: /api/ribbon/**
+      serviceId: cloud-service-consumer-ribbon
+    api-b:
+      path: /api/feign/**
+      serviceId: cloud-service-consumer-feign

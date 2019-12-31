@@ -1,0 +1,5 @@
+#修改服务端的地址后，必须在bootstrap中配置，原因是bootstrap中的优先配置，默认端口为8888
+spring:
+  cloud:
+    config:
+      uri: http://localhost:9001

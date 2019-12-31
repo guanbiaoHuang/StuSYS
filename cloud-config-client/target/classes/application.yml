@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: cloud-config-client
+  cloud:
+    config:
+      name: config-client
+      label: master
+      profile: dev
+  zipkin:
+    base-url: http://localhost:9411
+
+server:
+  port: 9002
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: cloud-config-client
