@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: cloud-service-consumer-ribbon
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+
+server:
+  port: 8021
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: cloud-service-consumer-ribbon
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/

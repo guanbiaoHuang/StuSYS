@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: cloud-service-consumer-feign
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+
+server:
+  port: 8022
+
+eureka:
+  instance:
+    instance-id: cloud-service-consumer-feign
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/
+
